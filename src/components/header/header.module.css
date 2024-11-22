@@ -62,21 +62,13 @@
     display: none;
 }
 
-@media (max-width: 700px){
-    
-    .joinNow{
-        display: none;
-        
-    }
-    
-    .Image {
-        width: 60px;
-        height: 60px;
-        margin-left: 5vh;
+@media (max-width: 850px){
+    .li{
+        font-size: 1.6vh;
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 850px){
 
     .ul {
         display: none;
@@ -92,5 +84,16 @@
 
     .navigationMenu {
         display: block;
+    }
+
+    .joinNow{
+        display: none;
+        
+    }
+    
+    .Image {
+        width: 60px;
+        height: 60px;
+        margin-left: 5vh;
     }
 }
